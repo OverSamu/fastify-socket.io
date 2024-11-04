@@ -8,7 +8,7 @@
     "format": "rome format --write .",
     "lint": "rome check .",
     "prepare": "husky install",
-    "prepublish": "pnpm build",
+    "prepublish": "npm build",
     "release": "pnpm build && changeset publish",
     "test": "tsx --test ./test/*.ts",
     "test:watch": "tsx --watch --test ./test/*.ts",
